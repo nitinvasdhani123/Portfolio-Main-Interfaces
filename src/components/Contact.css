@@ -1,0 +1,231 @@
+#contact
+{
+    border-top: 1px solid white;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#contact h1
+{
+    color: yellow;
+    font-size: 2rem;
+}
+
+
+.contact 
+{
+    box-shadow: 4px 4px 5px white;
+    width: 50rem;
+    height: 22rem;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.contact h2
+{
+    margin: 0.5rem 0rem;
+    font-size: 1.5rem;
+}
+
+/* .contact label
+{
+    font-size: 1rem;
+    margin-right: 0.5rem 0rem;
+} */
+
+.input
+{
+    outline: none;
+    background-color: transparent;
+    width: 36rem;
+    height: 2rem;
+    margin: 0.5rem;
+    padding: 0.2rem 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.textarea
+{
+    width: 36.3rem;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    margin: 0.2rem 0.2rem;
+    color: white;
+    background-color: transparent;
+}
+
+/* .message
+{
+    display: flex;
+    align-items: center;
+} */
+
+::placeholder 
+{ 
+    color: white;
+    /* text-align: center; */
+}
+
+.contact button
+{
+    margin: 1rem 16rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    background-color: white;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.contact button:hover
+{
+    background-color: rgb(132, 0, 255);
+    color: white;
+    box-shadow: 2px 2px 8px white;
+    transition: all 0.2s ease-in;
+}
+
+
+.connect h4
+{
+    font-size: 1.5rem;
+    text-align: center;
+    color: yellow;
+    margin: 0;
+    height: 5vh;
+}
+
+.icons
+{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icons i
+{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.github i:hover
+{
+    color: rgb(32, 32, 32);
+}
+
+.linkedin i:hover
+{
+    color: rgb(10, 102, 194);
+}
+
+.instagram i:hover
+{
+    border-radius: 1rem;
+    background-image: linear-gradient(#8a3ab9, #e95950, #bc2a8d, #fccc63, #fbad50, #cd486b, #4c68d7);
+}
+
+.email i:hover
+{
+    color: red;
+}
+
+.phone i:hover
+{
+    color: blue;
+}
+
+.thanks
+{
+    border-top: 1px solid white;
+    width: 100%;
+    height: 5vh;
+}
+
+.thanks h2
+{
+    color: yellow;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 810px)
+{
+    .contact 
+    {
+        width: 28rem;
+    }
+
+    .contact form
+    {
+        width: 28rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input
+    {
+        width: 20rem;
+    }
+
+    .textarea
+    {
+        width: 19rem;
+    }
+}
+
+@media only screen and (max-width: 750px)
+{
+    #contact
+    {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 460px)
+{
+    .input 
+    {
+        width: 10rem;
+    }
+
+    .textarea 
+    {
+        width: 10rem;
+    }
+
+    .contact form 
+    {
+        width: 18rem;
+    }
+
+    .contact 
+    {
+        width: 18rem;
+    }
+
+    .thanks h2 {
+        font-size: 1rem;
+    }
+
+    .contact button {
+        margin: 1rem 0rem;
+        width: 6rem;
+        font-size: 1rem;
+    }
+}

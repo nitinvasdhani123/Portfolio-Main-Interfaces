@@ -1,0 +1,15 @@
+#detailproject h2
+{
+    text-align: center;
+    color: yellow;
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.Projectcards
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

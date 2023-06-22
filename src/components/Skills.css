@@ -1,0 +1,200 @@
+#skill
+{
+    border-top: 1px solid white;
+    color: white;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#skill h1
+{
+    font-size: 3rem;
+    margin: 0.5rem 0rem;
+    color: yellow;
+}
+
+.skill-container
+{
+    border-radius: 1rem;
+    box-shadow: 2px 2px 10px white;
+    border: 2px solid white;
+    width: 45rem;
+}
+
+.skill-container h4
+{
+    margin: 1rem 0rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.progress
+{
+    margin: 1rem;
+    background-color: transparent;
+    display:flex ;
+    justify-content: center;
+    height: 22rem;
+}
+
+.progress1
+{
+    margin: 0rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.progress1 span
+{
+    font-size: 1.2rem;
+}
+
+.progress2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.progress2 div
+{
+    display: flex;
+    align-items: center;
+}
+
+.progress2 progress
+{
+    font-size: 2.5rem;
+}
+
+.progress2 span
+{
+    margin: 0rem 1rem;
+}
+  
+.progress2 progress::-webkit-progress-bar 
+{
+    background-color: yellow;
+} 
+
+@media only screen and (max-width: 750px)
+{
+
+    #skill
+    {
+        height: 90vh;
+    }
+
+    .progress1 span 
+    {
+        font-size: 1rem;
+    }
+
+    .progress2 progress
+    {
+        font-size: 2rem;
+    }
+
+    .skill-container    
+    {
+        width: 35rem;
+    }
+}
+
+@media only screen and (max-width: 570px)
+{
+    .skill-container h4
+    {
+        font-size: 1.2rem;
+    }
+
+    .progress1 
+    {
+        margin: 0rem 0.5rem;
+    }
+
+    .progress2 div 
+    {
+        width: 15rem;
+    }
+
+    .progress2 progress 
+    {
+        width: 11rem;
+    }
+
+    .skill-container 
+    {
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .skill-container h4
+    {
+        font-size: 1rem;
+    }
+
+    .progress1 
+    {
+        margin: 0rem 0.5rem;
+    }
+
+    .progress2 div 
+    {
+        width: 11rem;
+    }
+
+    .progress2 progress 
+    {
+        width: 7rem;
+    }
+
+    .skill-container 
+    {
+        width: 21rem;
+    }
+}
+
+@media only screen and (max-width: 350px)
+{
+    #skill h1 
+    {
+        font-size: 2rem;
+    }
+
+    .skill-container h4 
+    {
+        font-size: 0.8rem;
+    }
+    .progress1 
+    {
+        margin: 0rem 0.5rem;
+    }
+
+    .progress1 span 
+    {
+        font-size: 0.8rem;
+    }
+
+    .progress2 div 
+    {
+        width: 9rem;
+    }
+
+    .progress2 progress 
+    {
+        width: 5.5rem;
+    }
+
+    .skill-container 
+    {
+        width: 17rem;
+    }
+}
