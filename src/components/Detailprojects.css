@@ -13,3 +13,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.card-img-top:hover
+{
+    scale: 1.1;
+    transition: all 0.4s ease-in-out;
+}
