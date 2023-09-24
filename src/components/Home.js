@@ -10,7 +10,7 @@ function Home() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Programmer and Coder", "Front-End Developer"],
+      strings: ["Programmer","MERN Stack Developer"],
       typeSpeed: 100,
     });
 

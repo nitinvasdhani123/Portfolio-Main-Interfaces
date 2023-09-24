@@ -47,12 +47,12 @@
 
 .option li a:hover
 {
-    color: rgb(132, 0, 255);
+    /* color: rgb(132, 0, 255); */
 }
 
 .option li:hover
 {
-    color: rgb(132, 0, 255);
+    /* color: rgb(132, 0, 255); */
     box-shadow: 2px 2px 8px white;
 }
 
