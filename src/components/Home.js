@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Photo from "./photo.png";
 import Typed from "typed.js";
-import Resume from './nitin_kumar_vasdhani_resume.docx';
+import Resume from './nitin_kumar_vasdhani_resume.pdf';
 
 function Home() {
   // Create reference to store the DOM element containing the animation

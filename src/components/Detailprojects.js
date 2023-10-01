@@ -12,6 +12,7 @@ import unacademysymbol from './unacademysymbol.jpeg'
 import quote from './quote.jpeg'
 import weather from './weather.jpeg'
 import tictactoegame from './tictactoegame.jpeg'
+import mychat from './mychat.jpeg'
 
 function Detailprojects() {
   return (
@@ -93,6 +94,13 @@ function Detailprojects() {
                 <div className="card-body">
                     <h5 className="card-title">Tic Tac Toe Web App game</h5>
                     <a href="https://tic-tac-toe-web-app-game.netlify.app/" className="btn btn-outline-warning">Visit</a>
+                </div>
+            </div>
+            <div className="card text-bg-secondary p-3 m-5" style={{width: "20rem"}}>
+                <img className="card-img-top" src={mychat} alt='error'/>
+                <div className="card-body">
+                    <h5 className="card-title">Mychat Web App</h5>
+                    <a href="https://github.com/nitinvasdhani123/Mychat-Web-App" className="btn btn-outline-warning">Visit</a>
                 </div>
             </div>
         </div>
