@@ -10,7 +10,7 @@ function Home() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Programmer","MERN Stack Developer"],
+      strings: ["Programmer","MERN Stack and React Native Developer"],
       typeSpeed: 100,
     });
 
@@ -28,7 +28,7 @@ function Home() {
           Nitin Kumar Vasdhani
         </h1>
         <div ref={el} />
-        <p>I am a Front-End Developer. I have acquired the skills and Knowledge to make your project a success.</p>
+        <p>I am a MERN Stack and React Native Developer. I have acquired the skills and Knowledge to make your project a success.</p>
         <a
         href={Resume}
         download="Resume"
